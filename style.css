@@ -74,15 +74,21 @@ hr {
 .Last_Blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .article_last {
+    background-color: rgb(224, 225, 226);
+    border-radius: 20px;
     
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .article_last img {
     width: 224px;
     height: 104px;
+    margin-top: 25px;
 }
