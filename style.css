@@ -6,6 +6,8 @@ body {
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -48,4 +50,39 @@ main {
 hr {
     border: 1px solid #d1d1d1;
     margin-top: 30px;
+}
+
+.Top_Blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.article {
+    display: flex;
+   
+}
+
+.article div {
+    margin-right: 20px;
+}
+.article img {
+    width: 200px;
+    height: 140px;
+}
+
+.Last_Blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article_last {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.article_last img {
+    width: 224px;
+    height: 104px;
 }
